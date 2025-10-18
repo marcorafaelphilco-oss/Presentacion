@@ -1,0 +1,55 @@
+/* estilos.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #222831; /* Fondo oscuro */
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Foto circular */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 26px;
+}
+
+p {
+  margin: 0 0 20px;
+  font-size: 15px;
+  color: #cccccc;
+}
+
+/* Botones estilo linktree */
+.link-btn {
+  display: block;
+  background: #ffffff;
+  color: #222831;
+  text-decoration: none;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: transform 0.15s ease, background 0.3s;
+}
+
+.link-btn:hover {
+  background: #00adb5; /* Color al pasar el mouse */
+  color: white;
+  transform: scale(1.05);
+}

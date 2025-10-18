@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Mi Linktree Personal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #222831; /* Fondo oscuro */
+      color: #ffffff;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    /* Foto circular */
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid #fff;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 26px;
+    }
+
+    p {
+      margin: 0 0 20px;
+      font-size: 15px;
+      color: #cccccc;
+    }
+
+    /* Botones estilo linktree */
+    .link-btn {
+      display: block;
+      background: #ffffff;
+      color: #222831;
+      text-decoration: none;
+      padding: 14px;
+      margin: 12px 0;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: transform 0.15s ease, background 0.3s;
+    }
+
+    .link-btn:hover {
+      background: #00adb5; /* Color al pasar el mouse */
+      color: white;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Foto tuya -->
+   <img src="Marco-foto.jpg" alt="Foto de Marco" class="profile-pic">
+    <!-- Tu nombre -->
+    <h1>Marco Antonio Rafael</h1>
+    <!-- Texto breve -->
+    <p>Buenos dias, tardes o noches espero que les guste mi trabajo y diseño y que pasen un bonito dia <br> Bienvenido a mi página personal.</p>
+
+    <!-- Botones con tus links -->
+    <a href="mailto:marcorafaelphilco@gmail.com" class="link-btn">📧 Mi correo</a>
+    <a href="https://facebook.com/Marco Philco" target="_blank" class="link-btn">🌐 Facebook</a>
+    <a href="https://instagram.com/m4rc0_phb" target="_blank" class="link-btn">📷 Instagram</a>
+    <a href="tel:+51947909940" class="link-btn">📱 Mi número</a>
+    <a href="cv.pdf" target="_blank" class="link-btn">📄 Currículum virtual</a>
+  </div>
+</body>
+</html>
